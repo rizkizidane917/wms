@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer Base {
+  html {
+    font-family: "Karla", sans-serif;
+    -webkit-overflow-scrolling: touch;
+  }
+  body {
+    @apply bg-gray-100;
+  }
+}
